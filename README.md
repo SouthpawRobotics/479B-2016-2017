@@ -1,4 +1,4 @@
-# VRC Team 479B 2016/2017 Code
+# VRC Team 479C 2016/2017 Code
 This is the code to be used by team 479B for the 2016/2017 competition seasion. The game this year is Starstruck, a game where stars are thrown over a fence to score points.  
 [Starstruck Competition Resources](http://www.vexrobotics.com/vexedr/competition/competition-resources/)  
 
@@ -16,10 +16,7 @@ The code has three main sections: driver control, autonomous, and other.
 The driver control is very simple, just taking user input and converting it directly to motor output. This will later become more complecated as the season progresses and more closed loop controls are added.
 
 ### Autonomous
-There is currently no autonomous but one shall be added soon. The current plan is to go through a few very simple steps hoping to score a preload and possibly one off of the fence.
-1. Drive Packwards into fence, using the fence as a stop
-2. Lift the preload over the fence
-
+An autonomous has been added with the simple task of turning right 90º (which must still be calibrated) and then driving forward to collect the three stars in between the two robots. This is so that when the driver control period starts the stars can be efficiently moved into a lower scoring zone or under the fence.
 ### Other
 A few helper funcitons have been added to assist with the coding of the robot.
 
