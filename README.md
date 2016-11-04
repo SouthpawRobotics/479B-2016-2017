@@ -1,5 +1,5 @@
 # VRC Team 479C 2016/2017 Code
-This is the code to be used by team 479B for the 2016/2017 competition seasion. The game this year is Starstruck, a game where stars are thrown over a fence to score points.  
+This is the code to be used by team 479C for the 2016/2017 competition seasion. The game this year is Starstruck, a game where stars are thrown over a fence to score points.  
 [Starstruck Competition Resources](http://www.vexrobotics.com/vexedr/competition/competition-resources/)  
 
 ## Robot design
