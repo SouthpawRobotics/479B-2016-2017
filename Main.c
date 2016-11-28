@@ -49,11 +49,13 @@ void flexArm(int speed){
 }
 
 task autonomous(){
-	leftDrive(127);
+	leftDrive(-127);
 	rightDrive(-127);
-	sleep(1000);
-	rightDrive(127);
-	sleep(2000);
+	sleep(1800);
+	leftDrive(0);
+	sleep(1500);
+	leftDrive(-127);
+	sleep(3000);
 	leftDrive(0);
 	rightDrive(0);
 }
